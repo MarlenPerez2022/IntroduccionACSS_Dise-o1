@@ -1,0 +1,149 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: rgb(220, 37, 86);
+	position: fixed;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+
+main{
+ background-color: rgb(220, 37, 86);
+ width:100%;
+ display: flex;
+
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: black;
+}
+.contenedor-img{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contenedor-img img{
+	display: flex;
+	height: 250px;
+}
+.contenedor-texto{
+	color: rgb(255, 255, 255);
+	width: 50%;
+	justify-content: center;
+	padding:12%;
+}
+
+.texto{
+	color:#f0f0f0;
+}
+ 
+button {
+    background-color: rgb(220, 37, 86);
+	color:rgb(244, 239, 239);
+	display: flex;
+	margin: 10px auto;
+	padding: 10px ;
+	font-size: 12px;
+}
+section .arriba .dosarriba {
+	width:100%;
+	display:flex;
+
+}
+
+.dosarriba{
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+
+.Support img h3 h6{
+	display: flex;
+	width: 33%;
+}
+.Settings img h3 h6{
+	display: flex;
+	width:20%;
+}
+
+.FullyResponsive img h3 h6{
+	display: flex;
+	width: 33%;
+}
+
+.arriba .howitworks{
+	text-align: center;
+	margin: 40px 0;
+}
+
+.celularsolo {
+	margin: 20px 0;
+}
+
+.central-image {
+	display: block;
+	margin: 30px auto;
+	width: 100%;
+	max-width: 600px;
+}
+section .abajo .dosabajo{
+	width:100%;
+	display:flex;
+}
+.abajo{
+   background-color: #dad5d5dc;
+
+}
+.dosabajouno .dosabajodos .dosabajotres{
+	display: flex;
+	width: 33%;
+}
+
+.abajo .advancefeatures{
+	text-align: center;
+	margin: 40px 0;
+}
+.derecho{
+	text-align:right ;
+	padding: 30px;
+    font-size: 11px;
+}
+
+.izquierdo{
+	text-align: left;
+	padding: 30px;
+	font-size: 12px;
+	
+}
+
+.derecho img{
+   float: right;
+   justify-content: space-between;
+   
+}
+
+.izquierdo img{
+  float: left;
+  justify-content: space-between;
+}
